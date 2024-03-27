@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  box-shadow: 8px -1px 27px 37px rgba(50, 221, 17, 0.35) inset;
+  -webkit-box-shadow: 8px -1px 27px 37px rgba(50, 221, 17, 0.35) inset;
+  -moz-box-shadow: 8px -1px 27px 37px rgba(50, 221, 17, 0.35) inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+html,
+body {
+  height: 100%;
+}
+
+.random {
+  color: rgb(216, 175, 113);
+}
+.apple {
+  color: rgb(171, 234, 47);
+}
+.text {
+  color: rgb(0, 38, 254);
+  border: 2px solid rgb(232, 16, 16);
+  border-radius: 20px;
+}
+
+.select {
+  color: darkblue;
+  border-radius: 10px;
+  background-color: rgb(217, 199, 199);
+  border: 2px solid chocolate;
+}
